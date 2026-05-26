@@ -1,0 +1,4 @@
+Flask
+Flask-RESTX
+PyJWT
+gunicorn
