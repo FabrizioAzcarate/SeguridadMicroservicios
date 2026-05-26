@@ -20,34 +20,6 @@ El sistema implementa autenticación con JWT para proteger endpoints y comunicac
 
 ---
 
-# Estructura del proyecto
-
-microservicios/
-│
-├── auth_service/
-│   ├── app.py
-│   ├── auth.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── usuario_service/
-│   ├── app.py
-│   ├── auth_middleware.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── pedido_service/
-│   ├── app.py
-│   ├── auth_middleware.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
-
----
-
 # Microservicios
 
 ## Auth Service
